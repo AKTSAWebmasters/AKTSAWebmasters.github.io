@@ -13,16 +13,23 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 			
 			<!--Basic-->
-			<link rel="stylesheet" type="text/css" href="./css/uni.css">
+			<link rel="stylesheet" type="text/css" href="./css/main.css">
 			<link rel="icon" href="http://aktsa.com/favicon.ico" type="image/x-icon">
 			
 			<!--Fullpage Plugin-->
 			<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+			<link rel="stylesheet" type="text/css" href="./css/fullpage.css">
 			
 			<!--Infinity Push Plugin-->
 			<script type="text/javascript" src="./js/jquery.ma.infinitypush.js"></script>
+			<link rel="stylesheet" type="text/css" href="./css/infinityPush.css">
 			
-			<!--Tilt-Scroll-->
+			<!--Image Slider-->
+			<link rel="stylesheet" type="text/css" href="./css/idealImageSlider.css">
+			
+			<!--Preloader-->
+			<link rel="stylesheet" type="text/css" href="./css/preloader.css">
+			
 		<!--End of References-->
 		
 		<!--Scripts for Plugins-->
@@ -365,9 +372,9 @@
 		<script type="text/javascript">
 			//<![CDATA[
 				$(window).load(function() {
-					$('#status').delay(3500).fadeOut();
-					$('#preloader').delay(4000).fadeOut('slow');
-					$('body').delay(4000).css({'overflow':'visible'});
+					$('#status').delay(350).fadeOut();
+					$('#preloader').delay(400).fadeOut('slow');
+					$('body').delay(400).css({'overflow':'visible'});
 				})
 			//]]>
 		</script>
